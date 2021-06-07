@@ -13,8 +13,6 @@ services:
       - database
     volumes:
       - /var/www/html/images
-      #- /var/www/html:/var/www/html
-      #- ./LocalSettings.php:/var/www/html/LocalSettings.php
   database:
     image: mariadb
     restart: always
