@@ -20,6 +20,8 @@ services:
   database:
     image: mariadb
     restart: always
+    ports:
+      - 3306:3306
     volumes:
       - /root/mysql:/var/lib/mysql
     environment:
