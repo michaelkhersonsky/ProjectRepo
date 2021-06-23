@@ -6,6 +6,7 @@ version: '3'
 services:
   mediawiki:
     image: mediawiki
+    container_name: mw_container
     restart: always
     ports:
       - 8080:80
@@ -15,6 +16,7 @@ services:
       - /var/www/html/images
   database:
     image: mariadb
+    container_name: db_container
     restart: always
     volumes:
       - /var/lib/mysql:/var/lib/mysql
