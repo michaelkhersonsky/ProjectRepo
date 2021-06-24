@@ -1,0 +1,21 @@
+192.168.34.100  prdx-ntp12
+192.168.34.101  prdx-ntp22
+192.168.34.102  prdx-nsmaster12
+192.168.34.103  prdx-nsworker12
+192.168.34.104  prdx-nsworker22
+192.168.34.105  prdx-ftp12
+192.168.34.106  prdx-nfs12
+192.168.34.107  prdx-db127              
+192.168.34.108  prdx-webserver127      
+192.168.34.109  prdx-webserver227      
+192.168.34.110  prdx-webserver327      
+192.168.34.111  prdx-haproxy127         
+192.168.34.112  prdx-nagios12
+192.168.34.113  prdx-ldap12
+192.168.34.114  prdx-ansible12
+192.168.34.115  prdx-wiki12
+                             
+192.168.34.119  prdx-jenkins12
+192.168.34.120  prdx-kubem12
+192.168.34.121  prdx-kubew12
+192.168.34.122  prdx-kubew22
