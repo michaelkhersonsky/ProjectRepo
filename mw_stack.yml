@@ -20,8 +20,8 @@ services:
     restart: always
     volumes:
       - /var/lib/mysql:/var/lib/mysql
-    networks:
-     vpcbr:
+   networks:
+     mediawiki:
        ipv4_address: 172.18.0.3
     environment:
       MYSQL_DATABASE: my_wiki
