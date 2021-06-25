@@ -15,6 +15,7 @@ services:
     volumes:
       - /var/www/html/images
       - ./LocalSettings.php:/var/www/html/LocalSettings.php
+      - ./wiki.png:/var/www/html/resources/assets/wiki.png
   database:
     image: mariadb
     container_name: db_container
