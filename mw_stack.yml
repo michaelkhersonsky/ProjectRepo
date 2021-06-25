@@ -18,8 +18,8 @@ services:
     image: mariadb
     container_name: db_container
     restart: always
-    #volumes:
-    #  - /var/lib/mysql:/var/lib/mysql
+    volumes:
+      - /var/lib/mysql:/var/lib/mysql
     environment:
       MYSQL_DATABASE: my_wiki
       MYSQL_USER: root
