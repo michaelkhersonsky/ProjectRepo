@@ -22,7 +22,7 @@ services:
       - /var/lib/mysql:/var/lib/mysql
     environment:
       MYSQL_DATABASE: my_wiki
-      MYSQL_USER: wikiuser
+      MYSQL_USER: root
       MYSQL_PASSWORD: example
-      MYSQL_RANDOM_ROOT_PASSWORD: 'yes'
+      # MYSQL_RANDOM_ROOT_PASSWORD: 'yes'
       MYSQL_SERVER: '172.18.0.2'
